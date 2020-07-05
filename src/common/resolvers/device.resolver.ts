@@ -34,9 +34,9 @@ export class DeviceResolver {
   }
   @Mutation(() => DeviceDto, {nullable: true})
   async createDevice(
-    @Args('data') data: DeviceInput,
+    @Args('input') input: DeviceInput,
   ) {
-    return await this.deviceService.createResource(data);
+    return await this.deviceService.createResource(input);
   }
   @Mutation(() => DeviceDto, {nullable: true})
   async updateDevice(

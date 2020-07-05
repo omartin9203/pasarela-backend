@@ -105,10 +105,10 @@ input QueryFilterDateDto {
 }
 
 type Mutation {
-  createGateway(data: GatewayInput!): GatewayDto
+  createGateway(input: GatewayInput!): GatewayDto
   updateGateway(input: GatewayUpdate!, id: ID!): GatewayDto
   deleteGateway(id: ID!): GatewayDto
-  createDevice(data: DeviceInput!): DeviceDto
+  createDevice(input: DeviceInput!): DeviceDto
   updateDevice(input: DeviceUpdate!, id: ID!): DeviceDto
   deleteDevice(id: ID!): DeviceDto
 }

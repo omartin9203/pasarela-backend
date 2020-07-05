@@ -38,9 +38,9 @@ export class GatewayResolver {
   }
   @Mutation(() => GatewayDto, {nullable: true})
   async createGateway(
-    @Args('data') data: GatewayInput,
+    @Args('input') input: GatewayInput,
   ) {
-    return await this.gatewayService.createResource(data);
+    return await this.gatewayService.createResource(input);
   }
   @Mutation(() => GatewayDto, {nullable: true})
   async updateGateway(

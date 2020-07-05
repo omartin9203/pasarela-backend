@@ -13,7 +13,7 @@ import { GatewayRepository } from './common/reposirories/gateway.repository';
 import { GatewayService } from './common/services/gateway.service';
 import { GatewayResolver } from './common/resolvers/gateway.resolver';
 
-const { URI, OPTIONS } = process.env.NODE_ENV === 'production' ? CONNECTION.ATLAS : CONNECTION.LOCAL;
+const { URI, OPTIONS } = process.env.NODE_ENV === 'production' ? CONNECTION.ATLAS : CONNECTION.ATLAS;
 
 @Module({
   imports: [
