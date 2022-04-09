@@ -30,7 +30,7 @@
     "class-validator": "^0.12.2",
     "graphql": "^15.2.0",
     "graphql-tools": "^6.0.12",
-    "moment": "^2.27.0",
+    "moment": "^2.29.2",
     "mongoose": "^5.9.21",
     "reflect-metadata": "^0.1.13",
     "rimraf": "^3.0.0",
