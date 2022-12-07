@@ -29,7 +29,7 @@
     "class-transformer": "^0.2.3",
     "class-validator": "^0.12.2",
     "graphql": "^15.2.0",
-    "graphql-tools": "^6.0.12",
+    "graphql-tools": "^6.2.6",
     "moment": "^2.27.0",
     "mongoose": "^5.9.21",
     "reflect-metadata": "^0.1.13",
